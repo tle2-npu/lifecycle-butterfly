@@ -2,6 +2,8 @@ body {
     background-color: #edfaf0;
     font-family: 'Arial', sans-serif;
     font-size: 18px;
+    color: #333;
+    padding: 0;
 }
 h1 {
     text-align: center; 
@@ -15,4 +17,48 @@ p {
 img {
     display: block;
     margin: 0 auto;
+}
+
+/* Classes */
+.highlight {
+    color: darkblue;
+    text-align: center;
+}
+
+.text-style {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 8px 0;
+}
+
+.list-item {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.italic-link {
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* IDs */
+#main-header {
+    background-color: #e0f7fa;
+    padding: 20px;
+}
+
+#types-section {
+    background-color: #fff3e0;
+    padding: 15px;
+}
+
+#secondary-header {
+    background-color: #c8e6c9;
+    padding: 20px;
+}
+
+#stages-section {
+    background-color: #fce4ec;
+    padding: 15px;
 }
