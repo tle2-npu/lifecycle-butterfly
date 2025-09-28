@@ -3,7 +3,8 @@ body {
     font-family: 'Arial', sans-serif;
     font-size: 18px;
     color: #333;
-    padding: 0;
+    line-height: 1.6;
+    padding: 20px 80px;
 }
 h1 {
     text-align: center; 
@@ -16,7 +17,7 @@ p {
 }
 img {
     display: block;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 /* Classes */
@@ -77,3 +78,23 @@ img {
     border-radius: 8px;
 }
 
+@media (max-width: 600px) {
+  body {
+    font-size: 16px; 
+    padding: 10px;   
+  }
+
+  h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;  
+    height: auto;
+  }
+
+  main {
+    display: block;  
+  }
+}
