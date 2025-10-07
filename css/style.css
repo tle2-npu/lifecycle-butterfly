@@ -28,14 +28,9 @@ p {
     margin: 8px 0;
 }
 
-.list-item {
-    font-weight: bold;
-    margin-top: 10px;
-}
-
 .italic-link {
-    font-style: italic;
-    text-align: center;
+    font-style: italic; 
+    text-align: center; 
     margin-top: 20px;
 }
 
