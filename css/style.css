@@ -18,8 +18,12 @@ p {
 
 /* Classes */
 .highlight {
-    color: darkblue;
-    text-align: center;
+  font-family: 'Times New Roman', serif;
+  color: #4B0082;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 30px;
 }
 
 .text-style {
@@ -37,16 +41,6 @@ p {
 /* IDs */
 #main-header {
     background-color: #e0f7fa;
-    padding: 20px;
-}
-
-#types-section {
-    background-color: #fff3e0;
-    padding: 15px;
-}
-
-#secondary-header {
-    background-color: #c8e6c9;
     padding: 20px;
 }
 
